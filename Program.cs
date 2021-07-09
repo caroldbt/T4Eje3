@@ -6,7 +6,11 @@ namespace T4Eje3
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Ingrese nombre: ");
+            string dato = Console.ReadLine();
+            Console.WriteLine("Ingrese edad: ");
+            int edad = int.Parse(Console.ReadLine());
+            Console.WriteLine("Te llamas " + dato + " y tienes " + edad + " años");
         }
     }
 }
